@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(19, 161, 161);
+}
+
+.hoja-de-vida {
+    background-color: white;
+    width: 97.5%;
+    padding: 30px;
+    margin-top: -8px;
+    margin-left: -8PX;
+    margin-right: -8px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.568);
+}
+
+h1, h2, h3, p {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+    color:  rgb(19, 161, 161);
+    text-shadow: 0 0 20px rgba(107, 148, 145, 0.74);
+}
+
+h2 {
+    width: 100%;
+    text-shadow: 0 0 20px rgb(26, 46, 17);
+    font-size: 35px;
+}
+strong {
+    color: rgba(255, 255, 255, 0.568);
+}
+
+img {
+    position: absolute;
+    left: 430px;
+    bottom: 790px;
+    width: 150px;
+    border-radius: 50%;
+}
