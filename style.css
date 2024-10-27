@@ -9,14 +9,24 @@ body {
     margin-top: -8px;
     margin-left: -8PX;
     margin-right: -8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 img {
-    position: absolute;
-    left: 280px;
-    top: 35px;
     width: 150px;
     border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    margin-right: 75px;
+    margin-left: 130px;
+}
+
+@media (max-width: 600px) {
+.hoja-de-vida {
+    flex-direction: column;
+}
 }
 
 li {
